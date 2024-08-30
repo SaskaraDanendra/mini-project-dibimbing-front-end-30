@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Mini Project Dibimbing</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">Wonderful Earth</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Beranda</a></li>
+          <li class="link"><a href="#trending">Tren</a></li>
+          <li class="link"><a href="#destination">Destinasi</a></li>
+          <li class="link"><a href="#guide">Panduan</a></li>
+          <li class="link"><a href="#client">Klien</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Jelajahi keindahan alam Temukan diri baru Anda</h1>
+        <div class="header__form">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Kemana Anda ingin pergi?</label>
+              <input type="text" placeholder="Negara, Kode Pos" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Check In</label>
+              <input type="text" placeholder="Pilih tanggal" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Check Out</label>
+              <input type="text" placeholder="Pilih tanggal" />
+            </div>
+            <div class="input__group">
+              <label for="guests">Tamu</label>
+              <input type="text" placeholder="Jumlah tamu" />
+            </div>
+            <button class="btn">CEK KETERSEDIAAN</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">Tren 2024</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="assets/trending-1.jpg" alt="trending" />
+          <h1>Tur Mendaki Gunung</h1>
+          <p>Hiking | Petualangan</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>Mulai dari</p>
+              <h3>Rp14.400.000</h3>
+              <p>*Harga bervariasi</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.8 (10)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 7 hari
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Pembatalan Gratis
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="assets/trending-2.jpg" alt="trending" />
+          <h1>Tur Kereta Skyline</h1>
+          <p>Petualangan | Tur Grup</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>Mulai dari</p>
+              <h3>Rp8.000.000</h3>
+              <p>*Harga bervariasi</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.2 (25)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 3 hari
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Pembatalan Gratis
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="assets/trending-3.jpg" alt="trending" />
+          <h1>Kehidupan Hutan Liar</h1>
+          <p>Kecantikan Alam | Dorongan Adrenalin</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>Mulai dari</p>
+              <h3>Rp11.600.000</h3>
+              <p>*Harga bervariasi</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.5 (15)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 6 hari
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Pembatalan Gratis
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <div class="section__header">
+        <h2 class="section__title">Destinasi Terbaik</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Himalaya</h4>
+            <p>Gunung</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="badge">4.5</div>
+          <div class="destination__details">
+            <h4>London</h4>
+            <p>Kecantikan</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="badge">4.3</div>
+          <div class="destination__details">
+            <h4>Tokyo</h4>
+            <p>Tradisi</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-4.jpg" alt="destination" />
+          <div class="badge">4.8</div>
+          <div class="destination__details">
+            <h4>Yunani</h4>
+            <p>Kubah Putih</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-5.jpg" alt="destination" />
+          <div class="badge">4.2</div>
+          <div class="destination__details">
+            <h4>Sydney</h4>
+            <p>Opera</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-6.jpg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Amsterdam</h4>
+            <p>Ketentraman</p>
+          </div>
+          </div>
+          </div>
+          </section>
+          
+          <section class="section__container seller__container" id="seller">
+            <div class="section__header">
+              <h2 class="section__title">Penawaran Terbaik</h2>
+              <div class="section__btn">
+                <button class="btn">Lihat Semua</button>
+              </div>
+            </div>
+            <div class="seller__grid">
+              <div class="seller__card">
+                <div class="seller__image">
+                  <img src="assets/seller-1.jpg" alt="seller" />
+                  <div class="seller__image__content">
+                    <div class="badge">30%</div>
+                    <div class="seller__image__footer">
+                      <div class="seller__price">
+                        <p>10 Hari | 09 Malam</p>
+                        <h4>Rp14.375.000</h4>
+                      </div>
+                      <button class="btn">Jelajahi</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="seller__details">
+                  <h4>Trains Tour Skyline</h4>
+                  <p>Memulai petualangan kereta yang menakjubkan dengan Trains Tour Skyline</p>
+                </div>
+              </div>
+              <div class="seller__card">
+                <div class="seller__image">
+                  <img src="assets/seller-2.jpg" alt="seller" />
+                  <div class="seller__image__content">
+                    <div class="badge">20%</div>
+                    <div class="seller__image__footer">
+                      <div class="seller__price">
+                        <p>05 Hari | 06 Malam</p>
+                        <h4>Rp11.782.500</h4>
+                      </div>
+                      <button class="btn">Jelajahi</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="seller__details">
+                  <h4>Sea Nature View</h4>
+                  <p>Tempat keindahan lautan bertemu dengan ketenangan jiwa Anda</p>
+                </div>
+              </div>
+              <div class="seller__card">
+                <div class="seller__image">
+                  <img src="assets/seller-3.jpg" alt="seller" />
+                  <div class="seller__image__content">
+                    <div class="badge">25%</div>
+                    <div class="seller__image__footer">
+                      <div class="seller__price">
+                        <p>07 Hari | 06 Malam</p>
+                        <h4>Rp8.417.500</h4>
+                      </div>
+                      <button class="btn">Jelajahi</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="seller__details">
+                  <h4>Tokyo Market Ptr</h4>
+                  <p>Tempat Tradisi Bertemu Keajaiban Modern di Setiap Lorong</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="tour">
+            <div class="section__container tour__container">
+              <h4>Tonton Video Tur Kami</h4>
+              <div class="video__container">
+                <video src="assets/video.mp4" autoplay loop muted></video>
+              </div>
+            </div>
+          </section>
+          
+          <section class="section__container guide__container" id="guide">
+            <div class="section__header">
+              <h2 class="section__title">Panduan Tur</h2>
+              <div class="section__nav">
+                <span><i class="ri-arrow-left-s-line"></i></span>
+                <span><i class="ri-arrow-right-s-line"></i></span>
+              </div>
+            </div>
+            <div class="guide__grid">
+              <div class="guide__card">
+                <div class="guide__image">
+                  <img src="assets/guide-1.jpg" alt="guide" />
+                  <div class="guide__socials">
+                    <div>
+                      <span>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                      </span>
+                    </div>
+                    <button class="btn">Ikuti saya</button>
+                  </div>
+                </div>
+                <div class="guide__content">
+                  <div class="guide__details">
+                    <h4>Elias Hossain</h4>
+                    <p>Panduan Hutan</p>
+                  </div>
+                  <p>
+                    Dengan hasrat mendalam untuk hutan, ahli kami berkomitmen untuk
+                    menciptakan pengalaman imersif untuk menghubungkan dengan alam liar.
+                  </p>
+                </div>
+              </div>
+              <div class="guide__card">
+                <div class="guide__image">
+                  <img src="assets/guide-2.jpg" alt="guide" />
+                  <div class="guide__socials">
+                    <div>
+                      <span>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                      </span>
+                    </div>
+                    <button class="btn">Ikuti saya</button>
+                  </div>
+                </div>
+                <div class="guide__content">
+                  <div class="guide__details">
+                    <h4>Ahmed Hamdy</h4>
+                    <p>Panduan Laut</p>
+                  </div>
+                  <p>
+                    Bergabunglah dengan kami saat kita memulai perjalanan inspiratif
+                    di permukaan laut di mana rahasia menjadi kenangan tak terlupakan Anda.
+                  </p>
+                </div>
+              </div>
+              <div class="guide__card">
+                <div class="guide__image">
+                  <img src="assets/guide-3.jpg" alt="guide" />
+                  <div class="guide__socials">
+                    <div>
+                      <span>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                      </span>
+                      <span>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                      </span>
+                    </div>
+                    <button class="btn">Ikuti saya</button>
+                  </div>
+                </div>
+                <div class="guide__content">
+                  <div class="guide__details">
+                    <h4>Esiam Samir</h4>
+                    <p>Panduan Kota</p>
+                  </div>
+                  <p>
+                    Dengan hasrat untuk bepergian dan komitmen terhadap keunggulan, kami
+                    menciptakan pengalaman berkesan yang melampaui yang biasa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="section__container client__container" id="client">
+            <div class="section__header">
+              <h2 class="section__title">Umpan Balik Klien</h2>
+              <div class="section__nav">
+                <span><i class="ri-arrow-left-s-line"></i></span>
+                <span><i class="ri-arrow-right-s-line"></i></span>
+              </div>
+            </div>
+            <div class="client__grid">
+              <div class="client__card">
+                <div class="client__card__header">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <div class="ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+                <p>
+                  Saya memiliki pengalaman yang sangat luar biasa menggunakan situs tur
+                  dan perjalanan ini. Dari pemesanan penerbangan dan akomodasi hingga
+                  menemukan aktivitas lokal yang unik, semuanya berjalan lancar dan
+                  terorganisir dengan baik. Ini membuat perjalanan saya bebas stres dan
+                  tak terlupakan. Saya tidak sabar untuk merencanakan petualangan saya
+                  berikutnya bersama mereka!
+                </p>
+                <div class="client__card__footer">
+                  <img src="assets/client-1.jpg" alt="client" />
+                  <div class="client__details">
+                    <h4>Mike Henderson</h4>
+                    <p>Manajer Bisnis & CEO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="client__card">
+                <div class="client__card__header">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <div class="ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                  </div>
+                </div>
+                <p>
+                  Sebagai seorang pelancong yang sering bepergian, saya telah menggunakan berbagai situs tur dan perjalanan, tetapi situs ini menonjol karena perhatian terhadap detail dan rekomendasi yang dipersonalisasi. Itinerary yang mereka tawarkan sangat dipikirkan dengan baik, dan tips-tips di blog mereka sangat membantu untuk perjalanan saya yang baru-baru ini. Sangat direkomendasikan! Terima kasih kepada mereka.
+                </p>
+                <div class="client__card__footer">
+                  <img src="assets/client-2.jpg" alt="client" />
+                  <div class="client__details">
+                    <h4>Paul Harrison</h4>
+                    <p>Direktur</p>
+                  </div>
+                </div>
+                </div>
+                <div class="client__card">
+                  <div class="client__card__header">
+                    <span><i class="ri-double-quotes-r"></i></span>
+                    <div class="ratings">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-line"></i></span>
+                    </div>
+                  </div>
+                  <p>
+                    Saya bukan pelancong yang berpengalaman, tetapi situs ini membuat saya merasa seperti seorang profesional. Tim dukungan pelanggan sangat membantu dalam membimbing saya melalui proses perencanaan, dan panduan kota mereka memberikan wawasan yang berharga. Terima kasih kepada mereka, saya memiliki waktu yang fantastis menjelajahi kota baru dengan kepercayaan diri. Saya tidak bisa cukup berterima kasih!
+                  </p>
+                  <div class="client__card__footer">
+                    <img src="assets/client-3.jpg" alt="client" />
+                    <div class="client__details">
+                      <h4>John Williams</h4>
+                      <p>Penulis Konten</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </section>
+                
+                <section class="subscribe">
+                  <div class="section__container subscribe__container">
+                    <h4>Langganan dan Dapatkan Pembaruan</h4>
+                    <form action="/">
+                      <input type="text" placeholder="Silakan masukkan alamat email Anda" />
+                      <button class="btn">Langganan</button>
+                    </form>
+                  </div>
+                </section>
+                
+                <footer>
+                  <div class="section__container footer__container">
+                    <div class="footer__col">
+                      <h5>Wonderful Earth</h5>
+                      <p>
+                        Selamat datang di Wonderful Earth, situs tur dan perjalanan kami adalah pintu gerbang Anda menuju pengalaman yang memicu rasa petualangan.
+                      </p>
+                    </div>
+                    <div class="footer__col">
+                      <h4>Link Cepat</h4>
+                      <a href="#home">Beranda</a>
+                      <a href="#destination">Destinasi</a>
+                      <a href="#subscribe">Hubungi Kami</a>
+                      <a href="#">Kontak Kami</a>
+                      <a href="#">Kebijakan Privasi</a>
+                    </div>
+                    <div class="footer__col">
+                      <h4>Fitur</h4>
+                      <a href="#">Paket Liburan</a>
+                      <a href="#">Daftar Tur</a>
+                      <a href="#">Galeri</a>
+                      <a href="#">Perjalanan dengan Anggaran</a>
+                    </div>
+                    <div class="footer__col">
+                      <h4>Ikuti Kami</h4>
+                      <div class="footer__socials">
+                        <span>
+                          <a href="#"><i class="ri-twitter-fill"></i></a>
+                        </span>
+                        <span>
+                          <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        </span>
+                        <span>
+                          <a href="#"><i class="ri-instagram-line"></i></a>
+                        </span>
+                        <span>
+                          <a href="#"><i class="ri-facebook-fill"></i></a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__bar">
+
+                  </div>
+                </footer>
+                
+                <script src="main.js"></script>
+                </body>
+                </html>
+                
